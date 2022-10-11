@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/UMD-INST630-Dario/static/css/main.073c9b0a.css",
+    "main.js": "/UMD-INST630-Dario/static/js/main.2ae842a5.js",
+    "static/js/787.28cb0dcd.chunk.js": "/UMD-INST630-Dario/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/UMD-INST630-Dario/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/UMD-INST630-Dario/index.html",
+    "main.073c9b0a.css.map": "/UMD-INST630-Dario/static/css/main.073c9b0a.css.map",
+    "main.2ae842a5.js.map": "/UMD-INST630-Dario/static/js/main.2ae842a5.js.map",
+    "787.28cb0dcd.chunk.js.map": "/UMD-INST630-Dario/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.2ae842a5.js"
+  ]
+}
