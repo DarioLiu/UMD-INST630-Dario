@@ -1,15 +1,26 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://DarioLiu.github.io/UMD-INST630-Dario",
+  "homepage": "https://DarioLiu.github.io/630-Finalproject",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/d3": "^7.4.0",
+    "@types/d3-geo": "^3.0.2",
+    "@types/d3-request": "^1.0.6",
+    "@types/topojson-client": "^3.1.1",
+    "d3": "^7.6.1",
+    "d3-geo": "^3.0.1",
+    "d3-geo-projection": "^4.0.0",
+    "d3-queue": "^3.0.7",
+    "d3-request": "^1.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-uuid": "^2.0.0",
+    "topojson-client": "^3.1.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,6 +50,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "url-loader": "^4.1.1"
   }
 }

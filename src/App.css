@@ -36,3 +36,120 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  background-color: #939393 ;
+}
+
+.NavBar{
+  display: flex;
+  margin-top: 38px;
+  margin-left: 28px;
+  margin-right: 28px;
+  background-color: #0C0326;
+}
+
+.Logo{
+  width: 299px;
+  margin-top: 18px;
+  margin-left: 22px;
+  margin-right: 76px;
+  margin-bottom: 18px;
+}
+
+.Navtitle{
+  font-size: 62px;
+  margin-left: 54px;
+  color: white;
+  margin-top: 64.5px;
+  margin-bottom: 64.5px;
+}
+
+.Sidenav{
+  background-color: #10003A;
+  width: 364px;
+  height: 100vh;
+  margin-left: 28px;
+  color: white;
+  margin-top: 41px;
+}
+
+li:not(:first-of-type) {
+  margin-top: 1.5em;
+}
+
+li:not(:last-of-type) {
+  margin-bottom: 1.5em;
+
+}
+
+.container {
+  padding-top: 25px;
+  height: fit-content;
+  padding-left: 55px;
+}
+
+.Siderbaritems {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.Sidebartitle {
+  font-size: 32px;
+}
+
+.hover-div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hover-div li a {
+  position: relative;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 2px 8px;
+  z-index: 0;
+
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+svg .country:hover {
+  stroke: black;
+  stroke-width: 1px;
+  cursor: pointer;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 50px 150px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100px;
+  border: 1px solid black;
+  margin: 0 auto 5px;
+}
+
+video {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: auto;
+  width: 100%;
+}
